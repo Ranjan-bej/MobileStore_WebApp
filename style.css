@@ -1,0 +1,141 @@
+body {
+    font-family: 'Montserrat';
+}
+
+/* Title */
+#title {
+    background-color: #AF7AC5;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+/* Navigation Bar */
+
+.navbar {
+    background-color: transparent;
+    padding-bottom: 2.5rem;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 0.9rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Download buttons */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.title-image {
+    width: 80%;
+    transform: rotate(15deg);
+}
+
+#features {
+    padding: 3% 15% 5% 15%;
+
+}
+
+.feature-item {
+    text-align: center;
+    line-height: 2;
+}
+
+.feature-image {
+    font-size: 3em;
+}
+
+#android-logo{
+    color: greenyellow;
+}
+#android-logo:hover{
+    color: #2ECC71;
+}
+
+#apple-logo{
+    color: silver;
+}
+#apple-logo:hover{
+
+    color: #979A9A  ;
+}
+/* Testimonials */
+#testimonials{
+    text-align: center;
+    background-color: #AF7AC5;
+    padding: 7% 15%;
+    color: white;
+    font-family: 'Ubuntu';
+    line-height: 6;
+}
+
+#testimonials img{
+    width: 7%;
+}
+
+/* Pricing */
+#pricing{
+    text-align: center;
+    margin-top: 3%;
+}
+
+#pricing h2{
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+
+.phone{
+    width: 73%;
+    margin-left: 2.5em;
+}
+.phone-catalog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0 2% 0;
+}
+
+/* Call to action */
+#cta{
+    text-align: center;
+    background-color: #AF7AC5;
+    padding: 5% 15% 5% 15%;
+}
+
+#cta h3{
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+
+}
+
+/* Footer */
+#footer{
+    padding: 5% 15% 2% 15%;
+    text-align: center;
+    line-height: 2;
+}
+#footer a {
+    padding: 0.5em;
+    color: #2C3E50 ;
+}
